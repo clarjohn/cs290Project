@@ -23,8 +23,24 @@
 
          <a class = "con" href="">Contact us!</a>
     </section>
-    <section class = "content">
-         <p>Photo slider goes here</p>
+    <section class = "slidenaveright">
+
     </section>
+    <div class = "content">
+        <div class = "SlidePhoto">
+            <img src = './images/norway2.jpg'/>
+        </div>
+        <div class = "SlidePhoto">
+            <img src = './images/Newfoundland.jpg'/>
+        </div>
+        <div class = "SlidePhoto">
+            <img src = './images/Patagonia.jpg'/>
+        </div>
+
+        <a class="back" onclick="changeSlides(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlides(1)">&#10095;</a>
+    </div>
  </body>
 </html> 
+
+<script src="home.js"></script>
