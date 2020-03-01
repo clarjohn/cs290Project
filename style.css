@@ -1,0 +1,64 @@
+.topBanner{
+    width: auto;
+    height: 20%;
+    border: solid black 1px;
+    background-image: url(images/banner2.jpg);
+    background-size: 100% 100%;
+}
+
+.topBanner h1{
+   color: lightgray;
+   font-weight: bold;
+   text-decoration: underline;
+   font-size: 50px;
+   font-style: Merriweather;
+   margin-left: 5%;
+   margin-bottom: 0px;
+   padding-bottom: 0;
+
+} 
+
+.topBanner p{
+    color: lightgray;
+    font-style: Merriweather;
+    margin-left: 5%;
+    align-self: top;
+    margin-top: 0px;
+ } 
+
+.sideNav{
+
+    float: left;
+     width: 200px;
+     height: 80%;
+    background-color: black;
+    border: solid black 1px;
+    color: lightgray;
+    font-style: Merriweather;
+}
+
+.sideNav a{
+    
+    color: lightsteelblue;
+    font-style: Merriweather;
+}
+
+.sideNav a{
+    
+    color: lightgray;
+    font-style: Merriweather;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.sideNav li{
+    margin-bottom: 10px;
+
+}
+
+.content{   
+    width: auto;
+    height: 80%;
+    border: solid black 1px;
+}
