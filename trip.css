@@ -83,30 +83,55 @@
 
 .iten{
     float: left;
-    background-color: red;
     width: 30%;
     height: 50%;
     border: solid black 1px;
     overflow: scroll;
+    background-color: whitesmoke;
+}
+
+.iten table {
+    width: 100%;
+
+
+}
+
+.iten table,  td {
+    border: solid black 2px;
+    font-size: 14px;
+    background-color: lightgray;
+
+}
+
+.iten  th {
+    border: solid black 6px;
+    font-size: 20px;
+    background-color: grey;
 
 }
 
 
 .links{
-    background-color: blue;
+    background-color: whitesmoke;
     border: solid black 1px;
     height: 50%;
     margin-right: 32%;
 
 }
 
-.dwnld{
-    background-color: green;
-    border: solid black 1px;
-    margin-right: 32%;
- 
- 
-
+.dwnld button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 .title{
