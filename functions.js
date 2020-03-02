@@ -6,6 +6,9 @@ document.getElementById('buttonClick').addEventListener("click", exportTableToCS
             var tval = document.getElementById("trip").textContent;
             document.getElementById("sbox").textContent = tval;
             var tripdetail = [];
+            //list items
+            var countylist =  [];
+  
             if(tval == "Norway"){
                 document.getElementById("title").style.backgroundImage = "url(./images/norwayflag.jpg)";
                  tripdetail = [
@@ -109,6 +112,20 @@ document.getElementById('buttonClick').addEventListener("click", exportTableToCS
 
 
 // load list 
+
+
+if(tval == "Norway"){
+    countylist =  {Capital:"Oslo",Population:"5 Million",Wiki:"https://en.wikipedia.org/wiki/Norway",CIA:"https://www.cia.gov/library/publications/the-world-factbook/geos/no.html"}
+}else if(tval == "Newfoundland"){
+    countylist =  {Capital:"St Johns",Population:"520,000",Wiki:"https://en.wikipedia.org/wiki/Newfoundland_(island)",CIA:"https://www.newfoundlandlabrador.com/"}
+}else if(tval == "Patagonia"){
+    countylist =  {Capital:"Santiago",Population:"18 Million",Wiki:"https://en.wikipedia.org/wiki/Chile",CIA:"https://www.cia.gov/library/publications/the-world-factbook/geos/ci.html"}
+}
+
+document.getElementById("Capital").textContent = countylist.Capital;
+document.getElementById("Population").textContent = countylist.Population;
+
+
 
         }
       

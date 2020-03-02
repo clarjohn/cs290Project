@@ -112,7 +112,7 @@
 
 
 .links{
-    background-color: whitesmoke;
+    background-color: black;
     border: solid black 1px;
     height: 50%;
     margin-right: 32%;
@@ -139,4 +139,12 @@
     object-fit: contain;
     background-repeat: no-repeat;
     margin-right: 32%;
+}
+
+
+.links{
+    list-style: square inside;
+    font-weight: bolder;
+    font-size: 18px;
+    color: ivory;
 }
