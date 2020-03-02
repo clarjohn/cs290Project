@@ -84,25 +84,27 @@
 .iten{
     float: left;
     background-color: red;
-    width: 50%;
+    width: 30%;
     height: 50%;
     border: solid black 1px;
+    overflow: scroll;
 
 }
-.rside{
-    float: right;  
-}
+
 
 .links{
     background-color: blue;
     border: solid black 1px;
     height: 50%;
+    margin-right: 32%;
 
 }
 
 .dwnld{
     background-color: green;
     border: solid black 1px;
+    margin-right: 32%;
+ 
  
 
 }
@@ -111,4 +113,5 @@
     height: 30%;
     object-fit: contain;
     background-repeat: no-repeat;
+    margin-right: 32%;
 }
