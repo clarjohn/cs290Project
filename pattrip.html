@@ -2,7 +2,7 @@
 <html>
  <head>
   <meta charset = "utf-8">    
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="trip.css">
   <title>Outer Points Travel</title> 
  </head>
  <body>
@@ -29,20 +29,34 @@
 
     </section>
     <div class = "content">
-        <div class = "SlidePhoto">
-            <img src = './images/norway2.jpg'/>
-        </div>
-        <div class = "SlidePhoto">
-            <img src = './images/Newfoundland.jpg'/>
-        </div>
-        <div class = "SlidePhoto">
-            <img src = './images/Patagonia.jpg'/>
+       <div class = "trip" id = "trip">Patagonia</div>
+       <div class = "title" id =title>
+           <h1 id = "sbox"></h1>
+       </div>
+       <div id = 'iten' class = 'iten'>
+        <table id = "exTrip" class = "exTrip">
+            <thead>
+               <td>Stop</td>
+               <td>Days</td>
+               <td>Location</td>
+               <td>Description</td>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+    </div>
+    <div id ="rside">
+        <div id = 'links' class = 'links'>
+          <p>This will be a list of external links</p>
         </div>
 
-        <a class="back" onclick="changeSlides(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlides(1)">&#10095;</a>
+      <div id = 'dwnld' class = 'dwnld'>
+          <p>This will be button to download the table</p>
+       </div>
+    </div>
+
     </div>
  </body>
 </html> 
 
-<script src="home.js"></script>
+<script src="functions.js"></script>

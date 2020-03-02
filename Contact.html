@@ -13,11 +13,13 @@
      <section class = "sideNav">
          <h2>Places we go</h2>
          <br>
+         <a class = "hom" href="HomePage.html">Home page</a>
+         <br>
 
          <ul id = "navList">
-           <li><a href="">Norway</a></li>
-            <li><a href="">Newfoundland</a></li>
-            <li><a href="">Patagonia</a></li>
+            <li id = 'nor'><a href="nortrip.html">Norway</a></li>
+            <li id = 'new'><a href="newtrip.html">Newfoundland</a></li>
+            <li id = 'pat'><a href="pattrip.html">Patagonia</a></li>
          </ul>
          <br>
 
@@ -27,7 +29,26 @@
 
     </section>
     <div class = "content">
-       <p>The contact info will go here</p>
+        <form id = contact action = "http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"  method ="post">
+            <fieldset>
+               <legend class = "lbl">Contact us Form</legend>
+               <lable class = "lbl">Name:<br/>
+                   <input type="text" name = "Name" id = "Name" size = "30" maxlenght = "100">
+               </lable>
+               <br/>
+               <lable class = "lbl">Email:<br/>
+                   <input type="text" name = "Email" id = "Email" size = "30" maxlenght = "100">
+               </lable>
+               <br/>
+               <lable class = "lbl">Message:<br/>
+                 <textarea id = "Message" name="Message" form="contact" rows="10" cols="100"></textarea>
+               </lable>
+               <br/>
+               <input  class = "lbl" type="submit" id = "postsub" value="Submit" />
+            </fieldset>
+        </form>
+       
+
     </div>
  </body>
 </html> 

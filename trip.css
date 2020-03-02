@@ -75,7 +75,40 @@
     background-color: black;
 }
 
-.lbl{
-    color: grey;
+
+.trip{
+    display: none;
+    visibility: visible;
 }
 
+.iten{
+    float: left;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    border: solid black 1px;
+
+}
+.rside{
+    float: right;  
+}
+
+.links{
+    background-color: blue;
+    border: solid black 1px;
+    height: 50%;
+
+}
+
+.dwnld{
+    background-color: green;
+    border: solid black 1px;
+ 
+
+}
+
+.title{
+    height: 30%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
