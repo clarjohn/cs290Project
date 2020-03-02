@@ -122,8 +122,8 @@ if(tval == "Norway"){
     countylist =  {Capital:"Santiago",Population:"18 Million",Wiki:"https://en.wikipedia.org/wiki/Chile",CIA:"https://www.cia.gov/library/publications/the-world-factbook/geos/ci.html"}
 }
 
-document.getElementById("Capital").textContent = countylist.Capital;
-document.getElementById("Population").textContent = countylist.Population;
+document.getElementById("Capital").textContent = "The capital: "+countylist.Capital;
+document.getElementById("Population").textContent = "The population is:"+countylist.Population;
 
 
 
