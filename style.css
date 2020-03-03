@@ -123,3 +123,10 @@
   .next:hover {
     background-color: black;
   }
+
+  .bottom-right {
+    position: absolute;
+    font-style: italic;
+    bottom: 8px;
+    right: 20%;
+  }
